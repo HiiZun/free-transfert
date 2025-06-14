@@ -43,12 +43,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/free-transfert.git"
+    "url": "git+https://github.com/HiiZun/free-transfert.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/free-transfert/issues"
+    "url": "https://github.com/HiiZun/free-transfert/issues"
   },
-  "homepage": "https://github.com/yourusername/free-transfert#readme",
+  "homepage": "https://github.com/HiiZun/free-transfert#readme",
   "engines": {
     "node": ">=14.0.0"
   },

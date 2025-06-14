@@ -33,7 +33,7 @@ git commit -m "Initial commit: Free Transfer Node.js library"
 
 ```bash
 # Replace 'yourusername' with your actual GitHub username
-git remote add origin https://github.com/yourusername/free-transfert.git
+git remote add origin https://github.com/HiiZun/free-transfert.git
 git branch -M main
 git push -u origin main
 ```
@@ -46,12 +46,12 @@ After creating the GitHub repository, update the URLs in `package.json`:
 {
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/free-transfert.git"
+    "url": "git+https://github.com/HiiZun/free-transfert.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/free-transfert/issues"
+    "url": "https://github.com/HiiZun/free-transfert/issues"
   },
-  "homepage": "https://github.com/yourusername/free-transfert#readme"
+  "homepage": "https://github.com/HiiZun/free-transfert#readme"
 }
 ```
 
