@@ -1,0 +1,59 @@
+{
+  "name": "free-transfert",
+  "version": "1.0.0",
+  "description": "A Node.js library for uploading files to Free Transfer service with support for files, buffers, and streams",
+  "main": "lib/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "test:unit": "node test/run-tests.js unit",
+    "test:integration": "node test/run-tests.js integration",
+    "test:all": "node test/run-tests.js",
+    "test:suite": "node test/integration/suite.test.js",
+    "test:delete": "node test/integration/delete.test.js",
+    "example": "node examples.js",
+    "validate": "node validate-package.js",
+    "prepublishOnly": "node validate-package.js"
+  },
+  "keywords": [
+    "free",
+    "transfert",
+    "free-transfer",
+    "upload",
+    "files",
+    "buffer",
+    "stream",
+    "nodejs",
+    "javascript",
+    "file-upload",
+    "file-sharing"
+  ],
+  "author": "Marius GNATIUC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/free-transfert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/free-transfert/issues"
+  },
+  "homepage": "https://github.com/yourusername/free-transfert#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {}
+}

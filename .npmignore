@@ -1,0 +1,65 @@
+# Test files
+test/
+*.test.js
+*test*.js
+examples.js
+
+# Test data
+test.dev
+*.test.*
+
+# Development files
+.github/
+.vscode/
+.idea/
+
+# Git files
+.git/
+.gitignore
+
+# Node modules (should be in .gitignore anyway)
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Build artifacts (if any)
+build/
+dist/
+
+# Documentation source (keep README.md)
+docs/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
